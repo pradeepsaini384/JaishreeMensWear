@@ -120,7 +120,7 @@ def checkout(request):
                 'INDUSTRY_TYPE_ID': 'Retail',
                 'WEBSITE': 'DEFAULT',
                 'CHANNEL_ID': 'WEB',
-                'CALLBACK_URL':'http://jaishreemenswear.herokuapp.com/shop/handlerequest/',
+                'CALLBACK_URL':'https://jaishreemenswear.herokuapp.com/shop/handlerequest/',
 
         }
         param_dict['CHECKSUMHASH'] = Checksum.generate_checksum(param_dict, MERCHANT_KEY)
